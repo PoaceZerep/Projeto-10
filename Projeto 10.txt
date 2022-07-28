@@ -1,0 +1,29 @@
+operacao = float(input("DIGITE A OPÇÃO DESEJADA: (1)SOMA,(2)SUBTRAÇÃO,(3) DIVISÃO OU (4) MULTIPLICAÇÃO : "))
+
+
+if  (operacao==1):
+    n1 = int(input("digite o primeiro número: "))
+    n2 = int(input("digite o segundo número: "))
+    resultado = n1+n2
+    print("O resultado de",n1,"+",n2,"=",resultado)
+if  (operacao==2):
+    n1 = int(input("digite o primeiro número: "))
+    n2 = int(input("digite o segundo número: "))
+    resultado2 = n1-n2
+    print("O resultado de",n1,"-",n2,"=",resultado2)
+if (operacao==3):
+    n1 = int(input("digite o primeiro número: "))
+    n2 = int(input("digite o segundo número: "))
+        if n2 == 0:
+        print('O resultado é 0')
+        else:
+        resultado3 = n1/n2
+        print("O resultado de",n1,"/",n2,"=",resultado3)
+
+if (operacao==4):
+    n1 = int(input("digite o primeiro número: "))
+    n2 = int(input("digite o segundo número: "))
+    resultado4 = n1*n2
+    print("O resultado de",n1,"*",n2,"=",resultado4)
+
+print("FIM")
